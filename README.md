@@ -2,7 +2,7 @@
 
 ## Install Twitterwall CLI
 
-    $ npm install -g twitterwall-lib
+    $ npm install -g twitterwall.js
 
 ## Licence
 
