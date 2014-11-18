@@ -1,8 +1,8 @@
 # JavaScript library for [twitterwall](https://github.com/conc-at/twitterwall)
 
-## Install Twitterwall CLI
+## Install twitterwall.js
 
-    $ npm install -g twitterwall.js
+    $ npm install twitterwall.js
 
 ## Licence
 
