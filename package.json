@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/conc-at/twitterwall.js/issues"
   },
-  "homepage": "https://github.com/conc-at/twitterwall.js"
+  "homepage": "https://github.com/conc-at/twitterwall.js",
+  "dependencies": {
+    "request": "^2.48.0",
+    "url-join": "0.0.1"
+  }
 }
