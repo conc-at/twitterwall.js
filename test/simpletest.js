@@ -25,10 +25,10 @@ function tweeting(){
 }
 
 function flashing(){
-  twitterwall.flashTimeout({}, 500, function(err){
+  twitterwall.flash('**test** *test*', true, function(err){
     if(err) return console.log(err)
     console.log('ok')
   })
 }
 
-testBlocking()
+flashing()
