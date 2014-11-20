@@ -1,10 +1,11 @@
 {
   "name": "twitterwall.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a javascript library for twitterwall",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify test/simpletest.js > test/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,13 @@
   },
   "homepage": "https://github.com/conc-at/twitterwall.js",
   "dependencies": {
+    "browser-request": "^0.3.2",
     "request": "^2.48.0"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "devDependencies": {
+    "browserify": "^6.3.2"
   }
 }

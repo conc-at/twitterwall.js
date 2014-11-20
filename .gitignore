@@ -1,7 +1,7 @@
 # ignore dependencies
 node_modules/
 
-.env
+test/bundle.js
 
 # ignore generated files
 build/
