@@ -1,6 +1,6 @@
 'use strict'
 
-var twitterwall = require('../')({username: 'admin', password: '123456', server: 'http://localhost:5000'})
+var twitterwall = require('../')({username: 'admin', password: '123456', server: 'localhost:5000'})
 
 function testBlocking(){
   twitterwall.block('Test', function(err, data){
