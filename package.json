@@ -1,6 +1,6 @@
 {
   "name": "twitterwall.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a javascript library for twitterwall",
   "main": "index.js",
   "scripts": {

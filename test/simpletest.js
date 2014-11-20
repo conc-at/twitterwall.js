@@ -31,4 +31,11 @@ function flashing(){
   })
 }
 
-flashing()
+function highlight(){
+  twitterwall.highlight('535539618825781248', function(err){
+    if(err) return console.log(err)
+    console.log('ok')
+  })
+}
+
+highlight()
