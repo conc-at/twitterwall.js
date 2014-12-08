@@ -24,12 +24,12 @@
   "homepage": "https://github.com/conc-at/twitterwall.js",
   "dependencies": {
     "browser-request": "^0.3.2",
-    "request": "^2.48.0"
+    "request": "^2.49.0"
   },
   "browser": {
     "request": "browser-request"
   },
   "devDependencies": {
-    "browserify": "^6.3.2"
+    "browserify": "^7.0.0"
   }
 }
