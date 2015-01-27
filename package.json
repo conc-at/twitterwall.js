@@ -1,6 +1,6 @@
 {
   "name": "twitterwall.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a javascript library for twitterwall",
   "main": "index.js",
   "scripts": {
@@ -24,12 +24,12 @@
   "homepage": "https://github.com/conc-at/twitterwall.js",
   "dependencies": {
     "browser-request": "^0.3.2",
-    "request": "^2.49.0"
+    "request": "^2.51.0"
   },
   "browser": {
     "request": "browser-request"
   },
   "devDependencies": {
-    "browserify": "^7.0.0"
+    "browserify": "^8.1.1"
   }
 }
