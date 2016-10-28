@@ -30,7 +30,7 @@
     "request": "browser-request"
   },
   "devDependencies": {
-    "browserify": "^8.1.1",
+    "browserify": "^13.1.1",
     "standard": "*"
   },
   "standard": {
