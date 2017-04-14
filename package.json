@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/conc-at/twitterwall.js",
   "dependencies": {
-    "browser-request": "^0.3.2",
+    "browser-request": "^0.3.3",
     "request": "^2.51.0"
   },
   "browser": {
